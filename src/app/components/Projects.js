@@ -13,7 +13,7 @@ const Projects = () => {
     <>
       <Heading title="My Projects" />
 
-      <div className="flex gap-5 mt-5 flex-wrap mb-10">
+      <div className="flex  lg:justify-start justify-center gap-5 mt-5 flex-wrap mb-10">
         {projects.map((item, index) => (
           <div key={item.name}>
           <Tilt
@@ -26,7 +26,7 @@ const Projects = () => {
           >
          
           <div >
-            <div className="bg-[#172b49] cursor-pointer p-5 rounded-2xl sm-w-[100%] width w-[340px]">
+            <div className="bg-[#172b49] cursor-pointer p-5 rounded-2xl sm-w-[100%] width w-[320px]">
               <div className="relative w-full h-[230px] ">
                 <Image
                   src={item.image}

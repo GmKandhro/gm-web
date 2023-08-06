@@ -17,10 +17,11 @@ const page = () => {
   const [password, setPassword] = useState('')
 
   const cssCLasses = ' md:w-[290px] px-4 md:px-0 flex justify-center items-center gap-5 py-2 cursor-pointer  rounded-full mt-2 bg-[#575c5f22] text-white';
-  const inputStyles = 'py-1 mt-5 px-3  md:w-[400px] bg-[#111827] text-white outline-none border-b-[1px] border-[#e7dbdb]'
+  const inputStyles = 'py-1 mt-5 px-3 w-[70vw] md:w-[400px] bg-[#111827] text-white outline-none border-b-[1px] border-[#e7dbdb]';
+  
   return (
-    <main className='flex justify-center md:justify-between items-center px-2 md:pl-20 text-white'>
-      <div >
+    <main className='flex justify-center md:justify-between h-screen items-center px-2 md:pl-20 text-white'>
+      <div className='p-4 bg-[#43536644] w-auto rounded-2xl md:bg-none'>
         <form className='flex flex-col mb-10'>
           <h1 className='text-[38px] '>Login</h1>
           <input type="text"  placeholder='Name' className={`${inputStyles}`} />

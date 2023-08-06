@@ -8,10 +8,10 @@ const page = () => {
   return (
     <>
         <BannerImage imgSrc='/blog-cover-img.png' />
-        <main className='px-10 mt-4 mb-10'>
+        <main className='px-2 flex justify-center mt-4 mb-10'>
            
             <div >
-            <div className="bg-[#17283f] shadow-xl cursor-pointer p-5 rounded-2xl sm-w-[100%] width w-[340px]">
+            <div className="bg-[#17283f] shadow-xl cursor-pointer p-5 rounded-2xl sm-w-[100%] width w-[310px] md:w-[345px]">
               <div className="relative w-full h-[230px] ">
                 <Image
                   src='/services-1.png'

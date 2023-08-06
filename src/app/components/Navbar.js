@@ -8,6 +8,10 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 const Navbar = () => {
   const context = mycontext()
+  const handleClick =(e)=>{
+    e.preventDefault()
+    context.setMobileMenu(false)
+  }
   return (
     <nav className={`w-full h-[50px] px-4 sm:px-20  md:h-[70px] bg-[#1f2937] flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${context.show} border-b-[2px] border-[#666b75] shadow-xl`}>
       <div className="container mx-auto">
@@ -47,24 +51,24 @@ const Navbar = () => {
         </div>
       </div>
       <div className={`${context.mobileMenu ? 'flex' : 'hidden'}`}>
-      <ul  className="flex flex-col justify-center items-center gap-2 absolute top-12 right-[0px] w-[100%] bg-[#7a7a7a]">
+      <ul  className="flex flex-col justify-center items-center gap-1 py-2 absolute top-12 right-[0px] w-[100%] bg-[#35123b]">
             <li>
-              <Link className='text-white' href="/">Home </Link>
+              <Link className='text-white ' onClick={handleClick} href="/">Home </Link>
             </li>
             <li>
-              <Link className='text-white' href="/about">
+              <Link className='text-white' onClick={handleClick} href="/about">
                 About
               </Link>
 
             </li>
             <li>
-              <Link className='text-white' href="/services">Services </Link>
+              <Link className='text-white' onClick={handleClick} href="/services">Services </Link>
             </li>
             <li>
-              <Link className='text-white' href="/contact">Contact me </Link>
+              <Link className='text-white' onClick={handleClick} href="/contact">Contact me </Link>
             </li>
             <li>
-              <Link className='text-white' href="/blog">Blogs</Link>
+              <Link className='text-white' onClick={handleClick} href="/blog">Blogs</Link>
             </li>
           </ul>
       </div>
