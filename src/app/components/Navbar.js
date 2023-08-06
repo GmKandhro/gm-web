@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className={`w-full h-[50px] px-4 sm:px-20  md:h-[70px] bg-[#1f2937] flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${context.show} border-b-[2px] border-[#666b75] shadow-xl`}>
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
-          <div className="text-white font-bold text-xl">Gm</div>
+          <Link href='/' className="text-white font-bold text-xl">Gm</Link>
           <ul className="space-x-4 hidden md:flex">
             <li>
               <Link className='text-white' href="/">Home </Link>
