@@ -8,6 +8,7 @@ import { AiOutlineLinkedin ,AiFillGithub } from 'react-icons/ai';
 import { BsFacebook  } from 'react-icons/bs';
 import { BiLogoUpwork  } from 'react-icons/bi';
 import { TbBrandFiverr  } from 'react-icons/tb';
+import Link from 'next/link';
 
 
 
