@@ -5,6 +5,7 @@ import { BsFacebook  } from 'react-icons/bs';
 import { BiLogoUpwork  } from 'react-icons/bi';
 import { TbBrandFiverr  } from 'react-icons/tb';
 import BannerImage from '../components/BannerImage';
+import Link from 'next/link';
 
 
 const About = () => {
@@ -37,11 +38,11 @@ const About = () => {
       
       <Image width={600} height={200} alt='herosection' className='rounded-[100px] w-[400px] md:w-[340px] border-4 opacity-[0.4]' src='/developer.jpg' />
       <div className='flex  text-white text-[20px] sm:text-[26px]  px-2 py-4  rounded-[60px] bg-[#353232] mt-5 gap-4  absolute bottom-2 right-[80px] sm:right-[60px] '>
-        <TbBrandFiverr className='cursor-pointer hover:text-[#8d8888]'/>
-        <BiLogoUpwork className='cursor-pointer hover:text-[#8d8888]'/>
-        <AiFillGithub className='cursor-pointer hover:text-[#8d8888]'/>
-        <BsFacebook className='cursor-pointer hover:text-[#8d8888]'/>
-        <AiOutlineLinkedin className='cursor-pointer hover:text-[#8d8888]'/>
+      <Link target="_blank" href='https://www.fiverr.com/mustafa4085'><TbBrandFiverr className='cursor-pointer hover:text-[#8d8888]'/></Link>
+          <Link target="_blank" href='https://www.upwork.com/freelancers/~01f5cde1b15b86b152'><BiLogoUpwork className='cursor-pointer hover:text-[#8d8888]'/></Link>
+          <Link target="_blank" href='https://github.com/GmKandhro'><AiFillGithub className='cursor-pointer hover:text-[#8d8888]'/></Link>
+          <Link target="_blank" href='https://www.facebook.com/'><BsFacebook className='cursor-pointer hover:text-[#8d8888]'/></Link>
+          <Link target="_blank" href='https://www.linkedin.com/'><AiOutlineLinkedin className='cursor-pointer hover:text-[#8d8888]'/></Link>
       </div>
     </div>
     </div>

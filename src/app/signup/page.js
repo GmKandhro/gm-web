@@ -22,7 +22,7 @@ const page = () => {
   const inputStyles = 'py-1 mt-5 px-3 w-[70vw] md:w-[400px] bg-[#111827] text-white outline-none border-b-[1px] border-[#e7dbdb]'
   return (
     <main className='flex justify-center h-screen md:justify-between items-center px-2 md:pl-20 text-white'>
-      <div className='p-4 bg-[#43536644] w-auto rounded-2xl md:bg-none'>
+      <div className='p-4 bg-[#43536644]  w-auto rounded-2xl md:bg-none'>
         <form className='flex flex-col mb-10'>
           <h1 className='text-[38px] '>Sign up</h1>
           <input type="text"  placeholder='Name' className={`${inputStyles}`} />

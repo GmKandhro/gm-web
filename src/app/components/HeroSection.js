@@ -48,11 +48,11 @@ const HeroSection = () => {
       
         <Image width={600} height={200} alt='herosection' className='rounded-[100px] w-[400px] md:w-[340px] border-4 opacity-[0.4]' src='/developer.jpg' />
         <div className='flex flex-row md:flex-col md:static absolute bottom-[12px] text-white text-[26px] md:ml-4 px-2 py-4  rounded-[60px] bg-[#353232] mt-5 gap-4 '>
-          <Link href=''><TbBrandFiverr className='cursor-pointer hover:text-[#8d8888]'/></Link>
-          <Link href=''><BiLogoUpwork className='cursor-pointer hover:text-[#8d8888]'/></Link>
-          <Link href=''><AiFillGithub className='cursor-pointer hover:text-[#8d8888]'/></Link>
-          <Link href=''><BsFacebook className='cursor-pointer hover:text-[#8d8888]'/></Link>
-          <Link href=''><AiOutlineLinkedin className='cursor-pointer hover:text-[#8d8888]'/></Link>
+        <Link target="_blank" href='https://www.fiverr.com/mustafa4085'><TbBrandFiverr className='cursor-pointer hover:text-[#8d8888]'/></Link>
+          <Link target="_blank" href='https://www.upwork.com/freelancers/~01f5cde1b15b86b152'><BiLogoUpwork className='cursor-pointer hover:text-[#8d8888]'/></Link>
+          <Link target="_blank" href='https://github.com/GmKandhro'><AiFillGithub className='cursor-pointer hover:text-[#8d8888]'/></Link>
+          <Link target="_blank" href='https://www.facebook.com/'><BsFacebook className='cursor-pointer hover:text-[#8d8888]'/></Link>
+          <Link target="_blank" href='https://www.linkedin.com/'><AiOutlineLinkedin className='cursor-pointer hover:text-[#8d8888]'/></Link>
         </div>
       </div>
     </div>
